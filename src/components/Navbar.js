@@ -11,8 +11,8 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navcol-1">
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item"><Link className="nav-link active" to="/">Home</Link></li>
-                    <li className="nav-item"><Link className="nav-link" href="features.html">Features</Link></li>
-                    <li className="nav-item"><Link className="nav-link" href="pricing.html">Pricing</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/feature">Features</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/price">Pricing</Link></li>
                     <li className="nav-item"><Link className="nav-link" to="/About">About Us</Link></li>
                     <li className="nav-item"><Link className="nav-link" to="/contact">Contact Us</Link></li>
                 </ul>
